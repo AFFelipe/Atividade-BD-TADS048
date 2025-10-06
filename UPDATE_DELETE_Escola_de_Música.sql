@@ -1,9 +1,3 @@
--- ======================================================
--- SCRIPT: UPDATES_DELETES_Escola_de_Musica_Simples.sql
--- Banco: Escola_de_musica
--- Descrição: 20 operações de UPDATE e DELETE simples, sem erros
--- ======================================================
-
 USE Escola_de_musica;
 
 -- ======================
