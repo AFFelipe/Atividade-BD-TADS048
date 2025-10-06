@@ -1,9 +1,3 @@
--- ======================================================
--- SCRIPT: DROP_Escola_de_Musica.sql
--- Banco: Escola_de_musica
--- Descrição: Destrói todas as tabelas, views e dependências
--- ======================================================
-
 USE Escola_de_musica;
 
 -- ======================================================
