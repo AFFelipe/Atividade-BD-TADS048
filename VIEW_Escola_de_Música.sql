@@ -1,9 +1,3 @@
--- ======================================================
--- SCRIPT: VIEWS_Escola_de_Musica_corrigido_final.sql
--- Banco: Escola_de_musica
--- Descrição: Criação de 10 views para relatórios principais (corrigido e sem erros)
--- ======================================================
-
 USE Escola_de_musica;
 
 -- 1️⃣ View: Lista de músicos e suas orquestras
