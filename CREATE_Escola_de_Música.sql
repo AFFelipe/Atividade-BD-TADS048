@@ -20,7 +20,7 @@ USE Escola_de_musica ;
 CREATE TABLE IF NOT EXISTS Escola_de_musica.Orquestras (
   id_Orquestras INT NOT NULL,
   nome VARCHAR(45) NOT NULL,
-  dataDeCriacao DATE NOT NULL,
+  data_criacao DATE NOT NULL,
   PRIMARY KEY (id_Orquestras))
 ENGINE = InnoDB;
 
