@@ -1,149 +1,144 @@
+USE Escola_de_musica;
+
 -- ======================
--- ⿡ Tabela: Orquestras
+-- INSERTS: Orquestras
 -- ======================
 INSERT INTO Orquestras (nome, data_criacao) VALUES
-('Orquestra Sinfônica do Recife', '1998-05-14'),
-('Orquestra Jovem de Pernambuco', '2005-09-01'),
-('Orquestra Camerata do Sertão', '2010-03-12'),
-('Orquestra Harmonia Nordestina', '2001-11-23'),
-('Orquestra Popular do Agreste', '2015-07-30'),
-('Orquestra Filarmônica de Olinda', '1999-06-18'),
-('Orquestra Sinfônica do Cabo', '2007-10-10'),
-('Orquestra Municipal de Jaboatão', '2002-12-09'),
-('Orquestra Sons do Atlântico', '2011-08-21'),
-('Orquestra Experimental do Nordeste', '2018-02-14'),
-('Orquestra Barroca de Igarassu', '2003-04-04'),
-('Orquestra Regional do Litoral', '2006-09-17'),
-('Orquestra Clássica Pernambucana', '1995-12-20'),
-('Orquestra Harmonia do Futuro', '2020-01-05'),
-('Orquestra Infantojuvenil Recife', '2016-05-12'),
-('Orquestra Metálica do Norte', '2013-07-09'),
-('Orquestra Camerata Jovem', '2008-10-29'),
-('Orquestra Nova Harmonia', '2019-04-16'),
-('Orquestra Luz do Sertão', '2017-09-23'),
-('Orquestra Viva Pernambuco', '2012-11-30');
+('Orquestra Sinfônica de Pernambuco', '1990-05-12'),
+('Orquestra Jovem do Recife', '2000-08-20'),
+('Orquestra Filarmônica de Olinda', '1985-03-15'),
+('Orquestra Municipal do Recife', '1995-07-10'),
+('Orquestra Acadêmica de Música', '2005-09-25'),
+('Orquestra Experimental do Nordeste', '2010-11-05'),
+('Orquestra de Câmara do Recife', '1998-02-28'),
+('Orquestra de Cordas de Pernambuco', '2003-04-12'),
+('Orquestra Juvenil de Olinda', '2008-06-30'),
+('Orquestra Popular do Recife', '2015-01-20');
 
 -- ======================
--- ⿢ Tabela: Endereco
--- ======================
-INSERT INTO Endereco (id_orquestra, uf, cidade, bairro, rua, cep, numero) VALUES
-(1, 'PE', 'Recife', 'Boa Vista', 'Rua da Aurora', '50050-000', 120),
-(2, 'PE', 'Caruaru', 'Maurício de Nassau', 'Av. Agamenon Magalhães', '55014-000', 320),
-(3, 'PE', 'Petrolina', 'Centro', 'Rua Dom Malan', '56302-000', 87),
-(4, 'PE', 'Garanhuns', 'Heliópolis', 'Rua Dom José', '55294-000', 65),
-(5, 'PE', 'Arcoverde', 'São Cristóvão', 'Rua do Sol', '56500-000', 402),
-(6, 'PE', 'Olinda', 'Carmo', 'Rua Prudente de Morais', '53020-000', 97),
-(7, 'PE', 'Cabo de Santo Agostinho', 'Centro', 'Rua Getúlio Vargas', '54510-000', 101),
-(8, 'PE', 'Jaboatão dos Guararapes', 'Prazeres', 'Av. Barreto de Menezes', '54335-010', 553),
-(9, 'PE', 'Paulista', 'Maranguape I', 'Rua das Flores', '53401-000', 44),
-(10, 'PE', 'Garanhuns', 'Boa Vista', 'Rua São Bento', '55295-000', 211),
-(11, 'PE', 'Igarassu', 'Centro', 'Rua da Matriz', '53610-000', 72),
-(12, 'PE', 'Goiana', 'Centro', 'Av. Marechal Deodoro', '55900-000', 145),
-(13, 'PE', 'Recife', 'Casa Forte', 'Rua 17 de Agosto', '52061-540', 99),
-(14, 'PE', 'Abreu e Lima', 'Caetés I', 'Rua Principal', '53520-000', 15),
-(15, 'PE', 'Recife', 'Boa Viagem', 'Rua dos Navegantes', '51021-010', 342),
-(16, 'PE', 'Carpina', 'Centro', 'Rua das Acácias', '55810-000', 28),
-(17, 'PE', 'Vitória de Santo Antão', 'Matriz', 'Rua Imperial', '55602-000', 51),
-(18, 'PE', 'Bezerros', 'Centro', 'Rua da Matriz', '55660-000', 80),
-(19, 'PE', 'Serra Talhada', 'Ipsep', 'Rua Enéas Xavier', '56912-000', 66),
-(20, 'PE', 'Araripina', 'Centro', 'Rua Floriano Peixoto', '56280-000', 34);
-
--- ======================
--- ⿣ Tabela: Telefone
+-- INSERTS: Telefone
 -- ======================
 INSERT INTO Telefone (numero, id_orquestra) VALUES
-('81990010001', 1),
-('81990020002', 2),
-('81990030003', 3),
-('81990040004', 4),
-('81990050005', 5),
-('81990060006', 6),
-('81990070007', 7),
-('81990080008', 8),
-('81990090009', 9),
-('81990100010', 10),
-('81990110011', 11),
-('81990120012', 12),
-('81990130013', 13),
-('81990140014', 14),
-('81990150015', 15),
-('81990160016', 16),
-('81990170017', 17),
-('81990180018', 18),
-('81990190019', 19),
-('81990200020', 20);
+('81988880001', 1), ('81988880002', 2), ('81988880003', 3),
+('81988880004', 4), ('81988880005', 5), ('81988880006', 6),
+('81988880007', 7), ('81988880008', 8), ('81988880009', 9),
+('81988880010', 10), ('81988880011', 1), ('81988880012', 2),
+('81988880013', 3), ('81988880014', 4), ('81988880015', 5),
+('81988880016', 6), ('81988880017', 7), ('81988880018', 8),
+('81988880019', 9), ('81988880020', 10);
 
 -- ======================
--- ⿤ Tabela: Instrumentos
+-- INSERTS: Endereco
 -- ======================
-INSERT INTO Instrumentos (nome, tipo) VALUES
-('Violino', 'Cordas'),
-('Viola', 'Cordas'),
-('Violoncelo', 'Cordas'),
-('Contrabaixo', 'Cordas'),
-('Flauta Transversal', 'Sopro'),
-('Clarinete', 'Sopro'),
-('Oboé', 'Sopro'),
-('Trompete', 'Metal'),
-('Trombone', 'Metal'),
-('Trompa', 'Metal'),
-('Tuba', 'Metal'),
-('Piano', 'Teclas'),
-('Cravo', 'Teclas'),
-('Harpa', 'Cordas'),
-('Percussão', 'Percussão'),
-('Bateria', 'Percussão'),
-('Guitarra', 'Cordas'),
-('Bandolim', 'Cordas'),
-('Saxofone', 'Sopro'),
-('Fagote', 'Sopro');
+INSERT INTO Endereco (id_orquestra, uf, cidade, bairro, rua, cep, numero) VALUES
+(1,'PE','Recife','Boa Viagem','Rua das Orquestras','51000-000',100),
+(2,'PE','Recife','Casa Forte','Avenida Musical','52000-100',200),
+(3,'PE','Olinda','Varadouro','Rua dos Cordas','53000-200',50),
+(4,'PE','Recife','Graças','Rua do Maestro','51010-010',75),
+(5,'PE','Recife','Espinheiro','Avenida Harmonia','52010-020',180),
+(6,'PE','Olinda','Olinda Centro','Rua Melodia','53010-030',90),
+(7,'PE','Recife','Boa Vista','Rua Notas','51020-040',120),
+(8,'PE','Recife','Pina','Rua das Flautas','52020-050',130),
+(9,'PE','Olinda','Carmo','Rua Violinos','53020-060',140),
+(10,'PE','Recife','Santo Antônio','Avenida Sinfonia','51030-070',150),
+(1,'PE','Recife','Jardim São Paulo','Rua Trompas','51040-080',160),
+(2,'PE','Recife','Espinheiro','Rua Trompetes','52030-090',170),
+(3,'PE','Olinda','Varadouro','Rua Saxofones','53030-100',180),
+(4,'PE','Recife','Graças','Rua Clarinetes','51050-110',190),
+(5,'PE','Recife','Casa Amarela','Rua Violoncelos','52040-120',200),
+(6,'PE','Olinda','Olinda Centro','Rua Percussão','53040-130',210),
+(7,'PE','Recife','Boa Vista','Rua Harpas','51060-140',220),
+(8,'PE','Recife','Pina','Rua Pianos','52050-150',230),
+(9,'PE','Olinda','Carmo','Rua Oboés','53050-160',240),
+(10,'PE','Recife','Santo Antônio','Rua Violinos','51070-170',250);
 
 -- ======================
--- ⿥ Tabela: Musicos
+-- INSERTS: Musicos
 -- ======================
 INSERT INTO Musicos (cpf, nome, nacionalidade, nome_social, data_nasc, id_orquestra) VALUES
-('111.111.111-11', 'Lucas Pereira', 'Brasileiro', NULL, '1990-05-21', 1),
-('222.222.222-22', 'Fernanda Costa', 'Brasileira', NULL, '1988-12-15', 2),
-('333.333.333-33', 'João Silva', 'Brasileiro', NULL, '1992-03-10', 3),
-('444.444.444-44', 'Mariana Souza', 'Brasileira', NULL, '1995-07-05', 4),
-('555.555.555-55', 'Carlos Alberto', 'Brasileiro', NULL, '1985-11-20', 5),
-('666.666.666-66', 'Ana Paula', 'Brasileira', NULL, '1993-09-18', 6),
-('777.777.777-77', 'Pedro Henrique', 'Brasileiro', NULL, '1991-01-30', 7),
-('888.888.888-88', 'Camila Rodrigues', 'Brasileira', NULL, '1989-04-22', 8),
-('999.999.999-99', 'Rafael Gomes', 'Brasileiro', NULL, '1994-08-14', 9),
-('000.000.000-00', 'Juliana Lima', 'Brasileira', NULL, '1996-02-11', 10),
-('123.123.123-12', 'Marcos Vinicius', 'Brasileiro', NULL, '1987-06-08', 11),
-('234.234.234-23', 'Patrícia Oliveira', 'Brasileira', NULL, '1992-10-25', 12),
-('345.345.345-34', 'Bruno Fernandes', 'Brasileiro', NULL, '1990-09-09', 13),
-('456.456.456-45', 'Bianca Martins', 'Brasileira', NULL, '1993-12-12', 14),
-('567.567.567-56', 'Diego Costa', 'Brasileiro', NULL, '1989-01-17', 15),
-('678.678.678-67', 'Aline Rodrigues', 'Brasileira', NULL, '1991-07-30', 16),
-('789.789.789-78', 'Felipe Santos', 'Brasileiro', NULL, '1995-05-04', 17),
-('890.890.890-89', 'Sabrina Lima', 'Brasileira', NULL, '1992-08-20', 18),
-('901.901.901-90', 'Gustavo Rocha', 'Brasileiro', NULL, '1988-03-11', 19),
-('012.012.012-01', 'Larissa Melo', 'Brasileira', NULL, '1994-12-29', 20);
+('111.111.111-11','Lucas Pereira da Silva','Brasileira',NULL,'1990-01-15',1),
+('222.222.222-22','Ana Clara Souza','Brasileira',NULL,'1991-04-10',1),
+('333.333.333-33','Felipe Santos','Brasileira',NULL,'1985-05-10',2),
+('444.444.444-44','Mariana Costa','Brasileira',NULL,'1992-03-22',2),
+('555.555.555-55','Gustavo Lima','Brasileira',NULL,'1988-07-19',3),
+('666.666.666-66','Camila Rocha','Brasileira',NULL,'1995-09-05',3),
+('777.777.777-77','Rafael Almeida','Brasileira',NULL,'1991-12-11',4),
+('888.888.888-88','Juliana Fernandes','Brasileira',NULL,'1993-08-18',4),
+('999.999.999-99','Pedro Henrique','Brasileira',NULL,'1987-06-30',5),
+('000.000.000-00','Carla Bezerra','Brasileira',NULL,'1994-11-12',5),
+('123.456.789-01','Thiago Martins','Brasileira',NULL,'1989-02-20',6),
+('234.567.890-12','Patrícia Lima','Brasileira',NULL,'1990-04-25',6),
+('345.678.901-23','Ricardo Gomes','Brasileira',NULL,'1986-10-10',7),
+('456.789.012-34','Fernanda Silva','Brasileira',NULL,'1991-09-14',7),
+('567.890.123-45','André Costa','Brasileira',NULL,'1992-12-05',8),
+('678.901.234-56','Bruna Alves','Brasileira',NULL,'1993-01-30',8),
+('789.012.345-67','Vitor Rocha','Brasileira',NULL,'1994-03-18',9),
+('890.123.456-78','Larissa Melo','Brasileira',NULL,'1995-07-22',9),
+('901.234.567-89','Diego Fernandes','Brasileira',NULL,'1996-05-15',10),
+('012.012.012-01','Julio Cesar','Brasileira',NULL,'1997-08-09',10);
 
 -- ======================
--- ⿦ Tabela: Apto_a_Tocar
+-- INSERTS: Instrumentos
+-- ======================
+INSERT INTO Instrumentos (nome, tipo) VALUES
+('Violino','Cordas (arco)'),('Viola','Cordas (arco)'),('Violoncelo','Cordas (arco)'),
+('Contrabaixo','Cordas (arco)'),('Flauta','Madeiras'),('Clarinete','Madeiras'),
+('Oboé','Madeiras'),('Fagote','Madeiras'),('Trompete','Metais'),('Trompa','Metais'),
+('Trombone','Metais'),('Tuba','Metais'),('Piano','Teclas'),('Harpa','Cordas (dedo)'),
+('Percussão','Percussão'),('Saxofone','Madeiras'),('Bandolim','Cordas (dedo)'),
+('Guitarra','Cordas (dedo)'),('Bateria','Percussão'),('Cajón','Percussão');
+
+-- ======================
+-- INSERTS: Apto_a_Tocar
 -- ======================
 INSERT INTO Apto_a_Tocar (cpf_musico, id_instrumento) VALUES
-('111.111.111-11', 1),
-('111.111.111-11', 5),
-('222.222.222-22', 2),
-('222.222.222-22', 6),
-('333.333.333-33', 3),
-('333.333.333-33', 7),
-('444.444.444-44', 4),
-('444.444.444-44', 8),
-('555.555.555-55', 1),
-('555.555.555-55', 9),
-('666.666.666-66', 2),
-('666.666.666-66', 10),
-('777.777.777-77', 3),
-('777.777.777-77', 11),
-('888.888.888-88', 4),
-('888.888.888-88', 12),
-('999.999.999-99', 5),
-('999.999.999-99', 13),
-('000.000.000-00', 6),
-('000.000.000-00', 14);
+('111.111.111-11',1),('111.111.111-11',2),
+('222.222.222-22',5),('222.222.222-22',6),
+('333.333.333-33',1),('333.333.333-33',3),
+('444.444.444-44',7),('444.444.444-44',8),
+('555.555.555-55',9),('555.555.555-55',10),
+('666.666.666-66',11),('666.666.666-66',12),
+('777.777.777-77',13),('777.777.777-77',14),
+('888.888.888-88',15),('888.888.888-88',16),
+('999.999.999-99',17),('999.999.999-99',18),
+('000.000.000-00',19),('000.000.000-00',20);
+
+-- ======================
+-- INSERTS: Sinfonia
+-- ======================
+INSERT INTO Sinfonia (nome, compositor, data_criacao, id_orquestra) VALUES
+('Sinfonia Nº1','Heitor Villa-Lobos','1920-01-01',1),
+('Sinfonia Nº2','Carlos Gomes','1880-01-01',1),
+('Sinfonia Nº3','Camargo Guarnieri','1950-05-12',2),
+('Sinfonia Nº4','Alberto Nepomuceno','1900-09-10',2),
+('Sinfonia Nº5','Claudio Santoro','1930-07-15',3),
+('Sinfonia Nº6','Francisco Mignone','1940-11-22',3),
+('Sinfonia Nº7','Ernani Aguiar','1960-03-18',4),
+('Sinfonia Nº8','Nelson Ferreira','1970-06-30',4),
+('Sinfonia Nº9','Bach Brasileiro','1980-12-12',5),
+('Sinfonia Nº10','Mozart Brasileiro','1990-02-20',5),
+('Sinfonia Nº11','Villa Lobos Jr','2000-01-15',6),
+('Sinfonia Nº12','Carlos Gomes Jr','2005-05-10',6),
+('Sinfonia Nº13','Camargo Jr','2010-07-25',7),
+('Sinfonia Nº14','Alberto Nepo Jr','2012-03-30',7),
+('Sinfonia Nº15','Claudio S Jr','2014-09-18',8),
+('Sinfonia Nº16','Francisco M Jr','2015-11-05',8),
+('Sinfonia Nº17','Ernani A Jr','2016-06-12',9),
+('Sinfonia Nº18','Nelson F Jr','2017-08-22',9),
+('Sinfonia Nº19','Bach B Jr','2018-10-30',10),
+('Sinfonia Nº20','Mozart B Jr','2019-12-15',10);
+
+-- ======================
+-- INSERTS: Sinfonia_has_Instrumentos
+-- ======================
+INSERT INTO Sinfonia_has_Instrumentos (id_sinfonia, id_instrumento, cpf_musico) VALUES
+(1,1,'111.111.111-11'),(1,5,'222.222.222-22'),
+(2,2,'111.111.111-11'),(2,6,'222.222.222-22'),
+(3,3,'333.333.333-33'),(3,7,'444.444.444-44'),
+(4,4,'333.333.333-33'),(4,8,'444.444.444-44'),
+(5,9,'555.555.555-55'),(5,10,'555.555.555-55'),
+(6,11,'666.666.666-66'),(6,12,'666.666.666-66'),
+(7,13,'777.777.777-77'),(7,14,'777.777.777-77'),
+(8,15,'888.888.888-88'),(8,16,'888.888.888-88'),
+(9,17,'999.999.999-99'),(9,18,'999.999.999-99'),
+(10,19,'000.000.000-00'),(10,20,'000.000.000-00');
